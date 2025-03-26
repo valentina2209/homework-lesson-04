@@ -1,0 +1,98 @@
+
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Tauri:regular&display=swap"); 
+/* @import url("https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise:&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat+Underline:200,regular,900,200italic,italic&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Ruthie:regular&display=swap"); */
+
+@import url("fonts.css"); 
+
+body {
+     font-family: "Poppinc", sans-serif;
+     font-size: 18px;
+     line-height: 1.22;
+     letter-spacing: 1.4px;
+     font-style: normal;
+     font-weight: 500;
+}
+h1 {
+    font-family: "Gilroy";
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    text-shadow: 0cqmin;
+    letter-spacing: 6px;
+    white-space: normal;
+    text-shadow: 8px 4px 7px #000, 4px -7px 4px gold;
+}
+p {
+    font-family: "Tauri", serif;
+    font-style: oblique;
+    font-weight: 400;
+    color: brown;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    
+}
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-shadow:2px 2px 5px #28a899, 5px -2px 10px rgb(4, 42, 22);  ;
+    text-transform:capitalize;
+}
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    text-decoration: overline;
+    text-align: justify;
+    text-transform: lowercase;
+    text-shadow: 4px 4px 8px rgb(24, 3, 53);
+}
+.article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    text-decoration: solid;
+    text-align: right;
+    text-transform:none;
+}
+h2 {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+.caption{
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    text-decoration: none;
+}
+.paragraph {
+    color: var(--Gray-Scale-Gray-500, #808080);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-decoration: none;
+}
+.content {
+    color: var(--Gray-Scale-Gray-500, #808080);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-decoration: none;
+}
